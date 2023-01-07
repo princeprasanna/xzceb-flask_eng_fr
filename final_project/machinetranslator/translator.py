@@ -15,6 +15,7 @@ language_translator = LanguageTranslatorV3(
 
 language_translator.set_service_url(url)
 
+
 def englishtofrench(englishtext):
     if englishtext =='':
         return 'Empty'
